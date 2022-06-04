@@ -30,8 +30,8 @@ const PostWork = () => {
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Label>Author</Form.Label>
-                    <Form.Control type="text" placeholder="Enter your name" onChange={handleInputChange} name='author'/>
+                    <Form.Label>PublishBy</Form.Label>
+                    <Form.Control type="text" placeholder="Enter your name" onChange={handleInputChange} name='publishBy'/>
                 </Form.Group>
 
                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
